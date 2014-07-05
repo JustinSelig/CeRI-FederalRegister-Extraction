@@ -46,7 +46,7 @@ def clean_info(html_list):
 """Returns a list containing the starting locations (line numbers) of each 
 relevant heading.
 Precondition: html_list is a cleaned list of html elements with only headers,
-			site is a Webpage object containing the entire webpage content"""
+site is a Webpage object containing the entire webpage content"""
 def get_line_numbers(html_list, site):
 	result = []
 	for element in html_list:
